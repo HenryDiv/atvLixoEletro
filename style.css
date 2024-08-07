@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .container{
+    background-color: #4b793f;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .container img{
+    cursor: pointer;
+  }
+  .container div{
+    margin: 2vw;
+  }
+
+  .apresentação{
+    width: 100%;
+    height: 40vw;
+    background-color: #68975b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+  }
+  
+  .apresentação div{
+    width: 50%;
+    font-size: 20px;
+  }
+
+  .explicação {
+    background-image:url(./assets/lixo\ \(2\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+  width: 100%;
+  flex-direction: column;
+  
+}
+
+
+.explicação div{
+    padding: 2vw;
+    color:#000000;
+    background: none;
+    width: 50%;
+    font-size: 20px;
+    display: inline;
+    margin-top: 2px;
+    align-items: center;
+    justify-content: center;
+    background: rgba(75, 121, 63, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+.explicação div h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section03{
+    padding-top: 20px;
+    width: 100%;
+    height: 100vw;
+    background-color: #85b577;
+   
+  }
+
+  .section04{
+    width: 100%;
+    height: 100vw;
+    background-color: #68975b;
+   
+  }
