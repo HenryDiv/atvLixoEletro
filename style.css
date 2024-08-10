@@ -2,6 +2,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.efeito02,.efeito01-esq,.efeito01-dir,.efeito03-dir,.efeito03-esq,.efeito04-txt,.efeito04-map{
+  visibility: hidden;
 }
 h2 {
   color: #489f52;
@@ -41,12 +48,11 @@ nav {
 
 .nav-list a {
   position: relative;
-  text-decoration: none;
   color: rgb(0, 0, 0);
   font-size: 18px;
   letter-spacing: 0.5px;
   padding: 0 20px;
-  list-style-type: none;
+
 }
 .nav-list a::after {
   content: "";
@@ -56,7 +62,7 @@ nav {
   width: 0;
   left: 0;
   bottom: -10px;
-  transition: 0.3s;
+  transition: 0.5s all ease;
 }
 .nav-list a:hover {
   color: #ffffff;
@@ -72,7 +78,7 @@ nav {
   margin: 2vw;
 }
 
-.apresentação {
+.section01 {
   flex-wrap: wrap;
   width: 100%;
   height: 40vw;
@@ -82,28 +88,28 @@ nav {
   flex-direction: row-reverse;
 }
 
-.direita {
+.direita-01 {
   width: 50%;
 }
 
-.direita h2 {
+.direita-01 h2 {
   padding-bottom: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.esquerda {
+.esquerda-01 {
   margin-right: 40px;
   border-radius: 50% 20% / 10% 40%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background-color: beige;
 }
-.esquerda img {
+.esquerda-01 img {
   width: 300px;
 }
 
-.explicação {
+.section02 {
   background-image:url(./assets/lixo\ \(2\).jpg);
   background-attachment: fixed;
   background-position: center;
@@ -117,7 +123,8 @@ nav {
   width: 100%;
 }
 
-.explicação div {
+
+.section02 div {
   padding: 2vw;
   color: #001800;
   background: none;
@@ -135,16 +142,16 @@ nav {
   -webkit-backdrop-filter: blur(20px);
 }
 
-.explicação div h2 {
+.section02 div h2 {
   padding-bottom: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.explicação div p {
+.section02 div p {
   color: #ffff;
 }
-.explicação div li {
+.section02 div li {
   color: #ffff;
 }
 .section03 {
@@ -262,7 +269,7 @@ nav {
     height: 100%;
   }
   .direita {
-    flex-direction: row;
+    flex-direction: column;
     width: 80%;
     height: 100%;
   }
