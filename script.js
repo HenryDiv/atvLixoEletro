@@ -36,3 +36,8 @@ revelar.reveal(".efeito04-map", {
   duration: 2000,
   distance: "100px",
 });
+
+revelar.reveal(".efeito02",{
+  duration:2000,
+  distance:"80px",
+});
