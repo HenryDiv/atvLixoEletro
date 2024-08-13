@@ -187,7 +187,7 @@ nav {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 60vw;
+  height: 100%;
   
 }
 .texto-section04 {
@@ -204,12 +204,18 @@ nav {
 
 .mapa-section04 {
   width: 50%;
-  padding-top: 20px;
+  
   margin: 20px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.mapa{
+  width: 60%;
 }
 #pevs {
+  padding-top: 30px;
   color: #0000ff;
 }
 
@@ -313,8 +319,10 @@ footer .footer-container a{
     width: 100%;
     height: 100%;
   }
-  .mapa-section04 {
-    width: 50%;
+  .mapa{
+    width: 100%;
+    margin: 20px;
+  
 }
 #pevs {
   display: none;
