@@ -20,7 +20,7 @@ O repositório contém os seguintes arquivos:
 ## Como Usar
 
 1. **Clone o repositório**:
-   `git clone https://github.com/seu-usuario/seu-repositorio.git`
+   `git clone https://github.com/HenryDiv/atvLixoEletro.git`
 2. Navegue até o diretório do projeto:
 
    `cd AtvLixoEletro`
